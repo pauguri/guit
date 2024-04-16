@@ -1,6 +1,6 @@
 # guit - git en català
 ## Instal·lació
-> Cal tenir instal·lat [python](https://www.python.org/downloads/) perquè `guit` funcioni.
+> Cal tenir instal·lat [git](https://git-scm.com/downloads) i [python](https://www.python.org/downloads/) perquè `guit` funcioni.
 
 El paquet conté dos arxius executables a través de terminal per instal·lar i desinstal·lar `guit`, anomenats `instal-la_guit.sh` i `desinstal-la_guit.sh`.
 
