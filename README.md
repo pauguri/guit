@@ -1,4 +1,5 @@
 # guit - git en català
+> **Projecte en desenvolupament!** És probable que tingui errors o no funcioni en alguns sistemes operatius.
 ## Instal·lació
 > Cal tenir instal·lat [git](https://git-scm.com/downloads) i [python](https://www.python.org/downloads/) perquè `guit` funcioni.
 
