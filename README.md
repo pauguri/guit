@@ -2,10 +2,12 @@
 ## Instal·lació
 > Cal tenir instal·lat [python](https://www.python.org/downloads/) perquè `guit` funcioni.
 
-El paquet conté dos arxius executables a través de terminal per instal·lar i desinstal·lar Guit, anomenats `instal-la_guit.sh` i `desinstal-la_guit.sh`.
+El paquet conté dos arxius executables a través de terminal per instal·lar i desinstal·lar `guit`, anomenats `instal-la_guit.sh` i `desinstal-la_guit.sh`.
 
 ## Com funciona?
-`guit` actua com un substitut directe de `git`, de manera que les comandes s'executen exactament igual. Per exemple, la comanda de `git`:
+`guit` actua com un substitut directe de `git`, de manera que les comandes s'executen exactament igual.
+
+Per exemple, la comanda de `git`:
 ```shell
 git commit -m "Missatge del commit"
 ```
