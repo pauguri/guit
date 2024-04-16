@@ -1,4 +1,4 @@
-# Guit - Git en català
+# guit - git en català
 ## Instal·lació
 > Cal tenir instal·lat [python](https://www.python.org/downloads/) perquè `guit` funcioni.
 
@@ -20,7 +20,7 @@ guit compromet -m "Missatge del commit"
 
 > De moment `guit` només conté les comandes més bàsiques de `git`, però amb el temps n'aniré afegint més.
 
-| Git | Guit      |
+| `git` | `guit`      |
 | --- | --- |
 | add | afegeix |
 | archive | arxiva |
