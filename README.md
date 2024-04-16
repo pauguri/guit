@@ -1,35 +1,49 @@
 # Guit - Git en català
 ## Instal·lació
-El paquet conté dos arxius executables a través de terminal per instal·lar i desinstal·lar Guit, anomenats `installa_guit.sh` i `desinstalla_guit.sh`.
+> Cal tenir instal·lat [python](https://www.python.org/downloads/) perquè `guit` funcioni.
 
-## Comandes
-### A continuació hi ha la llista totes de les comandes disponibles:
-| Guit      | Git |
+El paquet conté dos arxius executables a través de terminal per instal·lar i desinstal·lar Guit, anomenats `instal-la_guit.sh` i `desinstal-la_guit.sh`.
+
+## Com funciona?
+`guit` actua com un substitut directe de `git`, de manera que les comandes s'executen exactament igual. Per exemple, la comanda de `git`:
+```shell
+git commit -m "Missatge del commit"
+```
+En `guit` s'escriu:
+```shell
+guit compromet -m "Missatge del commit"
+```
+
+### Llista de totes les comandes
+
+> De moment `guit` només conté les comandes més bàsiques de `git`, però amb el temps n'aniré afegint més.
+
+| Git | Guit      |
 | --- | --- |
-| afegeix | add |
-| arxiva | archive |
-| branca | branch |
-| contempla | checkout |
-| neteja | clean |
-| clona | clone |
-| compromet | commit |
-| descriu | describe |
-| compara | diff |
-| cerca | fetch |
-| inicia | init |
-| informa | log |
-| fusiona | merge |
-| mou | mv |
-| estira | pull |
-| empeny | push |
-| reposa | rebase |
-| reinicia | reset |
-| restaura | restore |
-| recula | revert |
-| mostra | show |
-| desa | stash |
-| estat | status |
-| canvia | switch |
-| etiqueta | tag |
-| configura | config |
-| remot | remote |
+| add | afegeix |
+| archive | arxiva |
+| branch | branca |
+| checkout | contempla |
+| clean | neteja |
+| clone | clona |
+| commit | compromet |
+| config | configura |
+| describe | descriu |
+| diff | compara |
+| fetch | cerca |
+| init | inicia |
+| log | informa |
+| merge | fusiona |
+| mv | mou |
+| pull | estira |
+| push | empeny |
+| rebase | reposa |
+| remote | remot |
+| reset | reinicia |
+| restore | restaura |
+| revert | recula |
+| show | mostra |
+| stash | desa |
+| status | estat |
+| switch | canvia |
+| tag | etiqueta |
