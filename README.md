@@ -1,5 +1,8 @@
 # guit - git en català
 > **Projecte en desenvolupament!** És probable que tingui errors o no funcioni en alguns sistemes operatius.
+
+Petit experiment divertit que tradueix les comandes de `git` a català. No proporciona cap mena d'utilitat nova a banda de poder fer control de versions amb la teva llengua.
+
 ## Instal·lació
 > Cal tenir instal·lat [git](https://git-scm.com/downloads) i [python](https://www.python.org/downloads/) perquè `guit` funcioni.
 
