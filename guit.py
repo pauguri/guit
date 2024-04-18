@@ -3,9 +3,36 @@
 import subprocess
 import argparse
 
-# Importar llistat de traduccions
-with open("traduccio.csv", "r") as file:
-    command_mapping = dict(line.strip().split(",") for line in file)
+# Llistat de traduccions
+command_mapping = {
+"afegeix": "add",
+"arxiva": "archive",
+"branca": "branch",
+"contempla": "checkout",
+"neteja": "clean",
+"clona": "clone",
+"compromet": "commit",
+"descriu": "describe",
+"compara": "diff",
+"cerca": "fetch",
+"inicia": "init",
+"informa": "log",
+"fusiona": "merge",
+"mou": "mv",
+"estira": "pull",
+"empeny": "push",
+"reposa": "rebase",
+"reinicia": "reset",
+"restaura": "restore",
+"recula": "revert",
+"mostra": "show",
+"desa": "stash",
+"estat": "status",
+"canvia": "switch",
+"etiqueta": "tag",
+"configura": "config",
+"remot": "remote"
+}
 
 def main():
     parser = argparse.ArgumentParser(description="Git en català")
